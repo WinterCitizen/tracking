@@ -1,0 +1,5 @@
+# name: test_saved_worklog_repository
+  list([
+    SavedWorklogValue(id='asd', created_at=datetime.datetime(2022, 5, 8, 0, 0, tzinfo=zoneinfo.ZoneInfo(key='Asia/Bishkek')), worklog=WorklogValue(issue='asd', started_at=datetime.datetime(2022, 5, 8, 0, 0, tzinfo=zoneinfo.ZoneInfo(key='Asia/Bishkek')), spent=datetime.timedelta(seconds=60), comment='dsa')),
+  ])
+# ---

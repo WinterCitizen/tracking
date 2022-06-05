@@ -1,0 +1,61 @@
+interactions:
+- request:
+    body: null
+    headers: {}
+    method: DELETE
+    uri: https://jira.clutch.co/rest/api/2/issue/TRAC-137/worklog/57396
+  response:
+    body:
+      string: ''
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 708474b778a54c80-AMS
+      Cache-Control:
+      - no-cache, no-store, no-transform
+      Connection:
+      - keep-alive
+      Content-Security-Policy:
+      - sandbox
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 08 May 2022 19:03:32 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=zkqcbJa8%2FV3uxBFJXlzqBxujTUf7MEi8DZTBg9CulTZaBIkiDCGfyruD83S5of8rdLYQbIJpYwGqTaKxsx351%2FA1KQn%2BoTItJA1wQdOSR4VRAXIQjKNbssx3eO9l6JT3"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Set-Cookie:
+      - JSESSIONID=417FC0D1DDFCF2BC4121170A7E0350F4; Path=/; Secure; HttpOnly
+      - atlassian.xsrf.token=BQF0-AE1D-FEMV-6LW8_117592fecb25535e6fa98e332d0dc32b975f4674_lin;
+        Path=/; Secure
+      Strict-Transport-Security:
+      - max-age=2592000
+      X-Arequestid:
+      - 1143x3229323x1
+      X-Asessionid:
+      - 1uhg5th
+      X-Ausername:
+      - wintercitizen
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Seraph-Loginreason:
+      - OK
+      X-Xss-Protection:
+      - 1; mode=block
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    status:
+      code: 204
+      message: No Content
+    url: https://jira.clutch.co/rest/api/2/issue/TRAC-137/worklog/57396
+version: 1

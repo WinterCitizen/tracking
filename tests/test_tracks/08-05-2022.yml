@@ -1,0 +1,10 @@
+start: "12:00"
+
+worklogs:
+  - issue: TRAC-137
+    spent: 1m
+    comment: Testerino
+
+  - issue: TRAC-137
+    spent: 3m
+    comment: Testerino 2

@@ -1,0 +1,6 @@
+# name: test_worklog_repository_read
+  list([
+    WorklogValue(issue='TRAC-137', started_at=datetime.datetime(2022, 5, 8, 12, 0, tzinfo=zoneinfo.ZoneInfo(key='Asia/Bishkek')), spent=datetime.timedelta(seconds=60), comment='Testerino'),
+    WorklogValue(issue='TRAC-137', started_at=datetime.datetime(2022, 5, 8, 12, 1, tzinfo=zoneinfo.ZoneInfo(key='Asia/Bishkek')), spent=datetime.timedelta(seconds=180), comment='Testerino 2'),
+  ])
+# ---

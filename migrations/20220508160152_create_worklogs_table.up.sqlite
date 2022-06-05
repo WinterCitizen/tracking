@@ -1,0 +1,9 @@
+CREATE TABLE worklogs (
+    id INTEGER NOT NULL,
+    issue TEXT NOT NULL,
+    started_at INTEGER NOT NULL,
+    spent INTEGER NOT NULL,
+    comment TEXT NOT NULL,
+    created_at INTEGER NOT NULL,
+    PRIMARY KEY (id, issue)
+);

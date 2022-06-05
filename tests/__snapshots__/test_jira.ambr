@@ -1,0 +1,12 @@
+# name: test_create
+  dict({
+    'created_at': datetime.datetime(2022, 5, 9, 12, 0, tzinfo=zoneinfo.ZoneInfo(key='Asia/Bishkek')),
+    'id': '57396',
+    'worklog': dict({
+      'comment': 'test',
+      'issue': 'TRAC-137',
+      'spent': datetime.timedelta(seconds=60),
+      'started_at': datetime.datetime(2022, 5, 9, 12, 0, tzinfo=zoneinfo.ZoneInfo(key='Asia/Bishkek')),
+    }),
+  })
+# ---

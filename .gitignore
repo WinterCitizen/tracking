@@ -1,0 +1,8 @@
+.mypy_cache
+.pytest_cache
+.vscode
+**/__pycache__
+store.sqlite
+test.sqlite
+tracks/*.yml
+.env
